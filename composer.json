@@ -1,0 +1,25 @@
+{
+    "name": "jpra/mi-primer-package",
+    "description": "Paquete de crud en modal.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jpra\\MiPrimerPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Pedro Reyes Alvarez",
+            "email": "realjpedro@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jpra\\MiPrimerPackage\\MiPrimerPackageServiceProvider"
+            ]
+        }
+    }
+}
